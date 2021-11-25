@@ -1,0 +1,21 @@
+
+.search-panel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 0.3rem;
+}
+.search-field{
+    flex: 1 1 calc(60% - 0.3rem);
+    padding: 6px 12px;
+    margin-bottom: 0.3rem;
+    margin-right: 0.3rem;
+}
+@media only screen and (max-device-width: 778px){
+    .search-field{
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,24 @@
+.todo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.todo-item-label{
+    margin-right: 0.5rem;
+}
+.btn-sm{
+    margin-right: 0.3rem;
+}
+.btn-trash{
+    border-color: tomato;
+}
+.fa-trash{
+    color: tomato;
+}
+.done{
+    text-decoration: line-through;
+}
+.important{
+    color: steelblue;
+    font-weight: 500;
+}

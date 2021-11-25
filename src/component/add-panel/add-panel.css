@@ -1,0 +1,8 @@
+
+.text-control{
+    flex: 1 1 calc(70% - 0.3rem);
+}
+
+.add-panel__btn{
+    flex: 1 1 calc(30% - 0.3rem)
+}

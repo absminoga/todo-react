@@ -1,0 +1,10 @@
+.btn-group{
+    flex: 1 1 30%;
+    margin-bottom: 0.3rem;
+}
+.btn-info{
+    color: white;
+}
+.btn-group>.btn:active, .btn-group>.btn:focus, .btn-group>.btn:hover {
+    color: white;
+}
